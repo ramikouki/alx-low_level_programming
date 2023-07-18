@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_times_table - print time table of n
@@ -17,7 +16,6 @@ for (num = 0; num <= n; num++)
 {
 _putchar('.');
 _putchar(' ');
-
 prod = num * mult;
 if (prod <= 9)
 _putchar(' ');
